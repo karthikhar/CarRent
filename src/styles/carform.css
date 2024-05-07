@@ -1,0 +1,66 @@
+.car-form-container {
+    width:400px;
+    margin: 20px;
+    padding: 50px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .car-form-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .car-form-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .car-form-container label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .car-form-container input[type='text'],
+  .car-form-container input[type='number'],
+  .car-form-container textarea {
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    transition: border-color 0.3s ease;
+  }
+  
+  .car-form-container input[type='checkbox'] {
+    margin-right: 5px;
+  }
+  
+  .car-form-container select {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    transition: border-color 0.3s ease;
+  }
+  
+  .car-form-container button {
+    background-color: #000D6B;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .car-form-container button:hover {
+    background-color: #000D6B;
+  }
+  
+  .car-form-container button[type='submit'] {
+    align-self: center;
+    width: 50%;
+  }
