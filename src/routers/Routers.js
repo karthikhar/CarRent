@@ -19,7 +19,6 @@ import GoToLogin from "../pages/GoToLogin";
 import UserPrivate from "../components/UI/UserPrivate";
 import AdminPrivate from "../components/UI/AdminPrivate";
 import SearchDisplay from "../pages/SearchDisplay";
-import MyRents from "../pages/MyRents";
 
 const Routers = () => {
   return (
@@ -43,7 +42,6 @@ const Routers = () => {
       <Route path="/contact" element={<Contact />} />
       <Route path="*" element={<NotFound />} />
       <Route path="/searchdisplay" element={<SearchDisplay/>}></Route>
-      <Route path="/myrents" element={<MyRents/>}></Route>
     </Routes>
   );
 };
